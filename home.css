@@ -1,0 +1,175 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  /* Header container styling */
+  .header-container {
+    display: flex;
+    background-color: black;
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+    color: white;
+  }
+  
+  /* Search icon styling */
+  .header-search-icon {
+    width: 50px;
+    height: 40px;
+    background: #febd69;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 0 5px 5px 0;  /* Rounded right corners */
+  }
+  
+  /* Signed-in and Orders sections */
+  .header-signed-in,
+  .header-orders {
+    padding: 5px;
+  }
+  
+  .header-signed-in b,
+  .header-orders b {
+    font-size: 14px;  /* Font size for bold text */
+  }
+  
+  /* Details section for language, sign-in, orders */
+  .header-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Search textbox styling */
+  .header-search-textbox input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;  /* Rounded left corners to match search icon */
+  }
+  
+  /* Search section */
+  .header-search {
+    display: flex;
+    align-items: center;
+    flex: 1;  /* Flexible width for search */
+  }
+  
+  /* Cart icon size */
+  .header-cart i {
+    font-size: 28px;
+  }
+  
+  /* Cart section alignment */
+  .header-cart {
+    text-align: center;
+  }
+  
+  /* Font size for smaller span text in Orders and Signed-in sections */
+  .header-orders span,
+  .header-signed-in span {
+    font-size: 12px;
+  }
+  
+  
+  
+  /* Hover effect for interactive header elements */
+  .header-signed-in:hover,
+  .header-signed-up:hover,
+  .header-item:hover,
+  .header-cart:hover,
+  .header-orders:hover {
+    outline: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+.image-card {
+    width : 100px;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.1);
+}
+.image-container {
+   width : 100%;
+   display: flex;
+   gap: 40px;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-top: 100px;
+}
+.image-card-container {
+  background: #f7f7f7;
+   width: 100%;
+   border-radius: 5px 5px 0 0;
+   padding: 5px 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.image-card-container img {
+   width: 80%;
+   mix-blend-mode: multiply;
+   border-radius: 5px 5px 0 0;
+}
+.image-container{
+    text-align: center;
+}
+.image-card {
+   width: 300px;
+   box-shadow: 0 0 22px rgba(0, 0, 0, 0.1);
+}
+.footer-container {
+  background: black;
+  color: white;
+}
+
+.back-to-top {
+  display: block;
+  width: 100%;
+  background: black;
+  padding: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back-to-top p {
+   text-align: center;
+   color: white;
+   font-size: 18px;
+}
+
+.back-to-top:active {
+   background: black;
+}
+
+.footer-content {
+   width: 80%;
+   margin: 20px auto;
+   display: flex;
+   justify-content: space-evenly;
+   padding: 10px 20px;
+}
+
+.footer-content-details ul {
+  list-style: none;
+}
+
+.footer-content-details ul span {
+  font-size: 16px;
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-content-details ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
